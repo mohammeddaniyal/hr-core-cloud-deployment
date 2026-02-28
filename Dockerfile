@@ -1,4 +1,4 @@
-FROM tomcat:9.0.93-jdk21-openjdk-slim
+FROM tomcat:9.0-jdk21-temurin-jammy
 
 RUN rm -rf /usr/local/tomcat/webapps/*
 
